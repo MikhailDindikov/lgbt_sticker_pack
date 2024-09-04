@@ -221,7 +221,7 @@ class GMainCard extends StatelessWidget {
                       ),
                       alignment: Alignment.center,
                       child: Text(
-                        'FREE',
+                        isGFree ? 'FREE' : 'BUY',
                         style: TextStyle(
                           fontFamily: 'Pop',
                           fontSize: 10,
